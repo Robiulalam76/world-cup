@@ -56,7 +56,7 @@ main {
 }
 
 .banner-title {
-    margin: 60px 0;
+    margin: 70px 0;
 }
 
 .banner-title,
@@ -164,6 +164,7 @@ main {
     color: white;
 }
 
+/* Upcoming Match HTML file card-row style code start */
 #new-open-color-2 {
     transition: background-color 0.50s ease-in;
     color 0.50s ease-in
@@ -191,6 +192,8 @@ main {
     background-color: #DD0000;
 }
 
+/* Upcoming Match HTML file card-row style code end */
+
 .card-row {
     width: 100%;
     display: grid;
@@ -201,7 +204,11 @@ main {
 
 .card {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+
+.card .blog-image {
+    border-radius: 10px 10px 0px 0px;
 }
 
 /* Upcoming Match html file style code start  */
@@ -244,8 +251,10 @@ main {
 
 .card-details button {
     font-size: 16px;
+    font-weight: 500;
     border: 1px solid #161616;
     background-color: white;
+    padding: 5px 10px;
     border-radius: 5px;
 }
 
@@ -289,9 +298,6 @@ main {
 
 /* goal aria style code start */
 .goal-aria {
-    margin-bottom: 0;
-    padding-bottom: 0;
-    min-height: 400px;
     background-color: #161616;
 }
 
@@ -316,9 +322,15 @@ hr {
 
 .contact-info {
     width: 100%;
-    color: #B9B9B9;
     display: flex;
     justify-content: space-evenly;
+}
+
+.contact-info a {
+    padding-top: 25px;
+    text-decoration: none;
+    color: #B9B9B9;
+    display: inline-block;
 }
 
 @keyframes social-link-animation {
@@ -377,7 +389,7 @@ hr {
     }
 
     .banner-title h1 {
-        font-size: 22px;
+        font-size: 23px;
     }
 
     .banner-title p {
@@ -424,9 +436,9 @@ hr {
     }
 }
 
-/* small device Responsive with Media query end */
+/* =====small device Responsive with Media query end===== */
 
-/* Tablate device Responsive with Media query start */
+/* =====Tablate device Responsive with Media query start===== */
 @media only screen and (min-width: 689px) and (max-width: 1279px) {
     .container {
         width: 100%;
@@ -492,3 +504,5 @@ hr {
         flex-direction: row;
     }
 }
+
+/* =====Tablate device Responsive with Media query end===== */
