@@ -200,8 +200,7 @@ main {
     display: flex;
 }
 
-.card-thumbnail img,
-.vs {
+.card-thumbnail .vs {
     padding: 10px;
 }
 
